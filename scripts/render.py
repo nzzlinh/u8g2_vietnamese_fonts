@@ -94,7 +94,7 @@ def main():
     for font_name, image_name in font_info:
         body_content += f"### {font_name}\n\n"
         toc.append(f" - [{font_name}](#{font_name})")
-        body_content += f"![{font_name}](output/{image_name})\n\n"
+        body_content += f"![{font_name}]({output_dir}/{image_name})\n\n"
     
     readme_content += "\n".join(toc) + "\n\n"
     readme_content += body_content

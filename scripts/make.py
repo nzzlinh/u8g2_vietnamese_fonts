@@ -32,8 +32,9 @@ def is_valid_ttf(file_path):
 
 def convert_ttf_to_bdf(ttf_path, font_name, size):
     """Convert TTF to BDF using otf2bdf."""
-    font_name = font_name.replace(" ", "").lower()  # Normalize font name
-    bdf_path = BDF_DIR / f"{font_name}/{font_name}_{size}pt.bdf"
+    font_name = font_name.replace(" ", "_").replace("-", "_").lower()  # Normalize font name
+    font_name, font_style = font_name.split("_")  # Normalize font name
+    bdf_path = BDF_DIR / f"{font_name}/{font_name}_{font_style}_{size}pt.bdf"
     bdf_dir = BDF_DIR / f"{font_name}"
     if not os.path.exists(bdf_dir):
         os.makedirs(bdf_dir, exist_ok=True)
@@ -67,7 +68,8 @@ def convert_ttf_to_bdf(ttf_path, font_name, size):
 def convert_bdf_to_c(bdf_path, font_name, size):
     """Convert BDF to u8g2 C array using bdfconv."""
     font_name = font_name.replace(" ", "").lower()  # Normalize font name
-    c_path = C_DIR / f"{font_name}/u8g2_font_{font_name}_{size}pt.c"
+    font_name, font_style = font_name.split("_")  # Normalize font name
+    c_path = C_DIR / f"{font_name}/u8g2_font_{font_name}_{font_style}_{size}pt.c"
     c_dir = C_DIR / f"{font_name}"
     if not os.path.exists(c_dir):
         os.makedirs(c_dir, exist_ok=True)

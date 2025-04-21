@@ -32,10 +32,6 @@ Used tools:
  - [roboto_regular_24pt](#roboto_regular_24pt)
  - [roboto_thin_24pt](#roboto_thin_24pt)
  - [roboto_thinitalic_24pt](#roboto_thinitalic_24pt)
- - [ubuntumono_bold_24pt](#ubuntumono_bold_24pt)
- - [ubuntumono_bolditalic_24pt](#ubuntumono_bolditalic_24pt)
- - [ubuntumono_italic_24pt](#ubuntumono_italic_24pt)
- - [ubuntumono_regular_24pt](#ubuntumono_regular_24pt)
  - [ubuntu_regular_24pt](#ubuntu_regular_24pt)
  - [uvn_baisau_24pt](#uvn_baisau_24pt)
  - [xuong_24pt](#xuong_24pt)
@@ -103,22 +99,6 @@ Used tools:
 ### roboto_thinitalic_24pt
 
 ![roboto_thinitalic_24pt](images/roboto_thinitalic_24pt.png)
-
-### ubuntumono_bold_24pt
-
-![ubuntumono_bold_24pt](images/ubuntumono_bold_24pt.png)
-
-### ubuntumono_bolditalic_24pt
-
-![ubuntumono_bolditalic_24pt](images/ubuntumono_bolditalic_24pt.png)
-
-### ubuntumono_italic_24pt
-
-![ubuntumono_italic_24pt](images/ubuntumono_italic_24pt.png)
-
-### ubuntumono_regular_24pt
-
-![ubuntumono_regular_24pt](images/ubuntumono_regular_24pt.png)
 
 ### ubuntu_regular_24pt
 

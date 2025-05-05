@@ -72,20 +72,48 @@ python3 ./scripts/make.py
 
 
  - [arial](#arial) -  | [regular](#arial)  
+ - [bevietnam](#bevietnam) -  | [bold](#bevietnam)   | [italic](#bevietnam_italic_24pt)   | [regular](#bevietnam_regular_24pt)   | [thin](#bevietnam_thin_24pt)  
+ - [catrinity](#catrinity) -  | [regular](#catrinity)  
  - [ibmplex](#ibmplex) -  | [regular](#ibmplex)  
  - [montserrat](#montserrat) -  | [regular](#montserrat)  
+ - [multitypegamerchess](#multitypegamerchess) -  | [regular](#multitypegamerchess)  
  - [notosans](#notosans) -  | [regular](#notosans)  
  - [opensans](#opensans) -  | [bold](#opensans)   | [italic](#opensans_italic_24pt)   | [regular](#opensans_regular_24pt)  
  - [patriot](#patriot) -  | [bold](#patriot)   | [medium](#patriot_medium_24pt)   | [normal](#patriot_normal_24pt)   | [regular](#patriot_regular_24pt)  
  - [roboto](#roboto) -  | [bold](#roboto)   | [italic](#roboto_italic_24pt)   | [regular](#roboto_regular_24pt)   | [thinitalic](#roboto_thinitalic_24pt)   | [thin](#roboto_thin_24pt)  
+ - [ruthlesssketch](#ruthlesssketch) -  | [italic](#ruthlesssketch)   | [regular](#ruthlesssketch_regular_24pt)  
+ - [truongsa](#truongsa) -  | [regular](#truongsa)  
  - [ubuntu](#ubuntu) -  | [regular](#ubuntu)  
  - [uvnbaisau](#uvnbaisau) -  | [regular](#uvnbaisau)  
+ - [vollda](#vollda) -  | [bold](#vollda)  
  - [xuong](#xuong) -  | [regular](#xuong)  
 
 ------------------
 ### arial
 
 ![arial](images/arial_regular_24pt.png)
+
+------------------
+### bevietnam
+
+![bevietnam](images/bevietnam_bold_24pt.png)
+
+#### bevietnam_italic_24pt
+
+![bevietnam](images/bevietnam_italic_24pt.png)
+
+#### bevietnam_regular_24pt
+
+![bevietnam](images/bevietnam_regular_24pt.png)
+
+#### bevietnam_thin_24pt
+
+![bevietnam](images/bevietnam_thin_24pt.png)
+
+------------------
+### catrinity
+
+![catrinity](images/catrinity_regular_24pt.png)
 
 ------------------
 ### ibmplex
@@ -96,6 +124,11 @@ python3 ./scripts/make.py
 ### montserrat
 
 ![montserrat](images/montserrat_regular_24pt.png)
+
+------------------
+### multitypegamerchess
+
+![multitypegamerchess](images/multitypegamerchess_regular_24pt.png)
 
 ------------------
 ### notosans
@@ -154,6 +187,20 @@ python3 ./scripts/make.py
 ![roboto](images/roboto_thin_24pt.png)
 
 ------------------
+### ruthlesssketch
+
+![ruthlesssketch](images/ruthlesssketch_italic_24pt.png)
+
+#### ruthlesssketch_regular_24pt
+
+![ruthlesssketch](images/ruthlesssketch_regular_24pt.png)
+
+------------------
+### truongsa
+
+![truongsa](images/truongsa_regular_24pt.png)
+
+------------------
 ### ubuntu
 
 ![ubuntu](images/ubuntu_regular_24pt.png)
@@ -162,6 +209,11 @@ python3 ./scripts/make.py
 ### uvnbaisau
 
 ![uvnbaisau](images/uvnbaisau_regular_24pt.png)
+
+------------------
+### vollda
+
+![vollda](images/vollda_bold_24pt.png)
 
 ------------------
 ### xuong
